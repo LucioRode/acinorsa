@@ -119,8 +119,3 @@ function openPanel(evt, panel) {
   }
 
   /*---   Tabla de resultados   ---*/
-
-
-
-
- 
