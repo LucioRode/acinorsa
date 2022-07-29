@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords"
+		content="asociacion, ciclistas, nordeste, norte, este, santafesino, santafecino, reconquista, santa fe, Delgado, Lucio">
+	<meta name="description"
+		content="ACINORSA - Asociación Ciclistas del Nordeste Santafecino. Asociacion sin fines de lucro radicada en la ciudad de Reconquista, Provincia de Santa Fe, Argentina.">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>ACINORSA - Asociación Ciclistas del Nordeste Santafesino</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body class="body">
+	<div id="video">
+		<video class="wcien" preload="auto" autoplay muted loop>
+			<source src="./videos/entrada.mp4" />
+		</video>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+	<div id="banner">
+		<div class="encabezado">
+			<img src="images/logomenu.png" class="logoac" alt="ACINORSA">
+		</div>
+
+		<div >
+			<img src="images/banner.png" class="wcien" alt="Ciclistas">
+		</div>
+	</div>
+
+	<!--  Inicio Menu  -->
+	<div class="cel" onclick="openNav()"><div class="menucel"><img src="images/menu.png" height="20" alt="icon Menu" aling="center"></div></div>
+	<div class="nav wrap pc">
+		<nav>
+			<ul>
+				<li><a href="#"><img src="images/logo_menu.png" height="20" alt="logo Acinorsa" aling="center"></a></li>
+				<li><a href="#comision" onclick="openComision(event, 'comision')">Comisión</a></li>
+				<li><a href="#eventos">Eventos</a></li>
+				<li><a href="#resultados">Resultados</a></li>
+				<li><a href="#galeria">Galeria</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+				<!--<li><div class="derecha">
+					<iframe
+					src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAcinorsa-108424825233836&width=180&layout=button&action=like&size=small"
+					width="180" height="40" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+					allowfullscreen="true"
+					allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+				</iframe>
+				</div></li>-->
+			</ul>
+		</nav>
+	</div>
+
+	<i class="fas fa-ellipsis-v btn-menu"></i>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<!--  Fin Menu  -->
+
+	<!--  Inicio Comisión   -->
+	<div class="main oculto" id="comision">
+		<div class="espaciador"><br></div>
+		<div class="container w90 shadow tm10px resultados ">
+			<div class="row">
+				<div class="col-12 centro titulo">
+					<p>
+					<h1><strong><b>Comisión</b></strong><br></h1>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-5">
+					<div class="row">
+						<div class="col-6">
+							<p>Presidente:</p>
+							<p>Vice-presidente:</p>
+							<p>Secretario</p>
+							<p>Tesorero:</p>
+						</div>
+						<div class="col-6">
+							<p>Benitez Gustavo</p>
+							<p>Spesot Mariano</p>
+							<p>Ibañez Roberto Matias</p>
+							<p>Simon Carlos Alberto</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6">
+							<p>Vocales:</p>
+						</div>
+						<div class="col-6">
+							<p>Nicle Mario Francisco</p>
+							<p>Bonaldi Gonzalo</p>
+							<p>Mendoza Marcelo</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6">
+							<p>Vocales Suplentes:</p>
+						</div>
+						<div class="col-6">
+							<p>Aquino Aldana</p>
+							<p>Simon Martin</p>
+							<p>Benitez Mauro</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6">
+							<strong>
+								<p>Sindico Titular:</p>
+								<p>Sindico Suplente:</p>
+							</strong>
+						</div>
+						<div class="col-6">
+							<p>Germiniani Cristian A.</p>
+							<p>Vallejos Julio</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-2">
+					<div class="midEspaciador"></div>
+				</div>
+
+				<div class="col-12 col-md-5">
+					<video class="video" autoplay muted loop>
+						<source src="./videos/ciclistas.mp4" />
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  Fin  Comisión  -->
+
+	<!--  Inicio sección Eventos   -->
+	<div class="main" id="eventos">
+		<div class="espaciador"><br></div>
+		<div class="container w90 shadow tm10px resultados">
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-5">
+					<img class="foto" src="./images/JuegosSantafesinos2022.jpg" alt="Juegos Santa Fe 2022">
+				</div>
+				<div class="col-12 col-md-6 col-lg-7">
+					<p>
+					<h1>JUEGOS SANTAFESINOS</h1>
+					</p>
+					<h3>Clasificatoria para los Juegos Evita 2022</h3>
+					<p>
+					<h4><strong><b>Domingo 14 de Agosto - 08:30 hs</b></strong></h4>
+					</p>
+					<p>Ciudad de Esperanza - Circuito en Avenida Rafaela</p>
+					<br>
+					<a download="JUEGOS_SANTAFESINOS_CICLISMO.pdf" href="./docs/JUEGOS_SANTAFESINOS_CICLISMO.pdf">Más
+						Info.</a>
+				</div>
+			</div>
+		</div>
+		<div class="container w90 shadow tm10px resultados">
+			<div class="row">
+				<div class="col-12·">
+					<h3>Agosto en Autodromo Avellaneda - Fecha a confirmar</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  Fin Eventos  -->
+
+	<!--  Inicio sección Resultados   -->
+	<div class="main" id="resultados">
+		<div class="espaciador"><br></div>
+		<div class="container w90 shadow">
+			<div class="resultados">
+				<p>
+				<h1><strong><b>Resultados - 03 de Julio </b></strong></h1>
+				</p>
+				<p>Velodromo Municipal - Reconquista</p>
+
+				<div>
+					<!--   Resultados   -->
+					<!-- Tab links -->
+					<div class="tab">
+						<button class="tablinks active" onclick="openPanel(event, '5')">Elitte</button>
+						<button class="tablinks" onclick="openPanel(event, '4')">Elitte II Master B</button>
+						<button class="tablinks" onclick="openPanel(event, '1')">2006 2007</button>
+						<button class="tablinks" onclick="openPanel(event, '2')">2008</button>
+						<button class="tablinks" onclick="openPanel(event, '3')">C D y Damas</button>
+					</div>
+
+					<!-- Tab content -->
+					<div id="1" class="tabcontent">
+						<h3>Categoria: 2006 2007</h3>
+						<img class="foto" src="./images/Resultados/20220703/2006_Elitte_II.jpeg" alt="Podio 2006 2007">
+						<ul class="cardlist">
+							<li>1 - Galeano Juan Manuel</li>
+							<li>2 - Ramos Thiago</li>
+							<li>3 - Benítez Lucas</li>
+							<li>4 - Spesot Esteban</li>
+						</ul>
+					</div>
+
+					<div id="2" class="tabcontent">
+						<h3>Categoria: 2008</h3>
+						<img class="foto" src="./images/Resultados/20220703/Cat_2008.jpeg" alt="Podio 2008">
+						<ul class="cardlist">
+							<li>1 - Rubier Luciano</li>
+							<li>2 - Martina Aquino Rodríguez</li>
+						</ul>
+					</div>
+
+					<div id="3" class="tabcontent">
+						<h3>Categoria: C D y Damas</h3>
+						<img class="foto" src="./images/Resultados/20220703/C_D_y_Damas.jpeg" alt="Podio C D y Damas">
+						<ul class="cardlist">
+							<li>1 - Varece Carlos</li>
+							<li>2 - Germiniani Carlos</li>
+							<li>3 - Ledesma José</li>
+							<li>5 - Misku Miguel</li>
+							<li>5 - Barduil Daniel</li>
+						</ul>
+					</div>
+
+					<div id="4" class="tabcontent">
+						<h3>Categoria: Elitte II Master B</B></h3>
+						<img class="foto" src="./images/Resultados/20220703/Elitte_II_Master_B.jpeg"
+							alt="Podio Elitte II Master B">
+						<ul class="cardlist">
+							<li>1 - Spesot César</li>
+							<li>2 - Almada Marcelo</li>
+							<li>3 - Muchut Mario</li>
+							<li>4 - Ibañez Matías</li>
+							<li>5 - Demis Pochon</li>
+							<li>6 - Gonza Andres</li>
+						</ul>
+					</div>
+
+					<div id="5" class="tabcontent active" style="display: block;">
+						<h3>Categoria: Elitte</B></h3>
+						<img class="foto" src="./images/Resultados/20220703/Elitte.jpeg" alt="Podio Elitte">
+						<ul class="cardlist">
+							<li>1 - Juan Rodríguez</li>
+							<li>2 - Moya Gastón</li>
+							<li>3 - Oviedo Jonatan </li>
+							<li>4 - Sotelo Cristian</li>
+							<li>5 - Demis Pochon</li>
+							<li>6 - Aquino Luis</li>
+							<li>7 - Sotelos Marcos</li>
+						</ul>
+					</div>
+				</div>
+				<!--   Fin Resultados   -->
+			</div>
+
+			<!--   Inicio Slider Auspiciantes    -->
+			<div class="wcien slider">
+				<!-- partial:index.partial.html -->
+				<div class="client-slider">
+					<div class="client-slide-track">
+						<div class="client-slide">
+							<img src="images/Reconquista.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Marcon.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Espindola.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/SupCristian.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/CirSubOf.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Facpyr.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Reconquista.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Marcon.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Espindola.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/SupCristian.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/CirSubOf.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Facpyr.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Reconquista.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Marcon.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Espindola.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/SupCristian.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/CirSubOf.png" />
+						</div>
+						<div class="client-slide">
+							<img src="images/Facpyr.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--   Fin slider   -->
+
+		</div>
+	</div>
+	<!--  Fin Resultados  -->
+
+	<!-- Contacto -->
+	<div class="main" id="contacto">
+		<div class="espaciador"><br></div>
+		<div class="container w90 shadow tm10px">
+			<div class="centro titulo">
+				<p>
+				<h1><strong><b>Contacto</b></strong></h1>
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-4 centro">
+					<p>
+					<h4>
+						<b>Gustavo Benítez</b>
+					</h4><br><br>+54 9 3482 583825<br><br>
+					</p>
+					<p>59 bis Esquina 2 - Bº Velodromo</p><br><br>
+					<p>acinorsarqta@gmail.com</p><br><br>
+				</div>
+				<div class="col-12 col-md-8">
+					<iframe class="wcien" height="400"
+						src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1583.2056602830928!2d-59.638283389418284!3d-29.165858806252494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sar!4v1658424847902!5m2!1ses!2sar"
+						style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin Contacto-->
+	
+	<div class="espaciador"><br></div>
+
+	<!--Pie de Pagina -->
+	<footer class="piedepagina">
+		<div class="piederecho piecolores max20h">
+			<p>Powered by: <img class="       max20h modal-button" src="images/Logo_DLR_w.png"
+					alt="Logo Delgado Lucio Rodrigo"></p>
+		</div>
+		<div class="pieizquierdo piecolores">
+			<a href="https://www.instagram.com/acinorsarqta/" target="_blank"><img class="redes max20h"
+					src="images/iconI_b.png" alt="Instagram"> </a>
+			<a href="https://www.facebook.com/Acinorsa-108424825233836" target="_blank"><img class="redes max20h"
+					src="images/iconF_b.png" alt="Facebook"></a>
+		</div>
+	</footer>
+	<!--Fin Pie de Pagina-->
+
+
+	<!--   Comienzo de Prueba Menu Cel   -->
+<div id="myNav" class="overlay cel">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+	<div class="overlay-content">
+		<a href="#"><img src="images/logo_menu.png" height="20" alt="logo Acinorsa" aling="center"></a>
+		<a href="#comision" onclick="openComision(event, 'comision')">Comisión</a>
+		<a href="#eventos">Eventos</a>
+		<a href="#resultados">Resultados</a>
+		<a href="#galeria">Galeria</a>
+		<a href="#contacto">Contacto</a>
+	</div>
+  
+  </div>
+  
+	<!--   Fin de la prueba Menu Cel   -->
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+	integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+	integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/script.js"></script>
+
+</body>
+
+</html>
