@@ -19,11 +19,11 @@
 </head>
 
 <body class="body">
-	<div id="video">
+	<!--<div id="video">
 		<video class="wcien" preload="auto" autoplay muted loop>
 			<source src="./videos/entrada.mp4" />
 		</video>
-	</div>
+	</div>-->
 
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
@@ -41,25 +41,38 @@
 	</div>
 
 	<!--  Inicio Menu  -->
-	<div class="cel" onclick="openNav()"><div class="menucel"><img src="images/menu.png" height="20" alt="icon Menu" aling="center"></div></div>
-	<div class="nav wrap pc">
+	<div class="nav pc">
 		<nav>
 			<ul>
 				<li><a href="#"><img src="images/logo_menu.png" height="20" alt="logo Acinorsa" aling="center"></a></li>
 				<li><a href="#comision" onclick="openComision(event, 'comision')">Comisión</a></li>
 				<li><a href="#eventos">Eventos</a></li>
 				<li><a href="#resultados">Resultados</a></li>
-				<li><a href="#galeria">Galeria</a></li>
+				<!--<li><a href="#galeria">Galeria</a></li>-->
 				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
 
-	<i class="fas fa-ellipsis-v btn-menu"></i>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
 	<!--  Fin Menu  -->
+
+	<!--   Menu Cel   -->
+	<div id="menucel" class="menucel">
+		<a href="javascript:void(0)" class="closebtn cel shadow" onclick="cerrarMenuCel()">&times;</a>
+		<nav>
+			<ul>
+				<li><a href="#"><img src="images/logo_menu.png" height="20" alt="logo Acinorsa" aling="center"></a></li>
+				<li><a href="#comision" onclick="openComision(event, 'comision')">Comisión</a></li>
+				<li><a href="#eventos">Eventos</a></li>
+				<li><a href="#resultados">Resultados</a></li>
+				<!--<li><a href="#galeria">Galeria</a></li>-->
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+	  
+	  <span class="cel" style="font-size:30px;cursor:pointer" onclick="abrirMenuCel()">&#9776;</span>
+	<!--   Fin Menu Cel   -->
 
 	<!--  Inicio Comisión   -->
 	<div class="main oculto" id="comision">
@@ -184,7 +197,6 @@
 
 				<div>
 					<!--   Resultados   -->
-					<!-- Tab links -->
 					<div class="tab">
 						<button class="tablinks active" onclick="openPanel(event, '5')">Elitte</button>
 						<button class="tablinks" onclick="openPanel(event, '4')">Elitte II Master B</button>
@@ -192,8 +204,7 @@
 						<button class="tablinks" onclick="openPanel(event, '2')">2008</button>
 						<button class="tablinks" onclick="openPanel(event, '3')">C D y Damas</button>
 					</div>
-
-					<!-- Tab content -->
+					
 					<div id="1" class="tabcontent">
 						<h3>Categoria: 2006 2007</h3>
 						<img class="foto" src="./images/Resultados/20220703/2006_Elitte_II.jpeg" alt="Podio 2006 2007">
@@ -254,8 +265,8 @@
 						</ul>
 					</div>
 				</div>
-				<!--   Fin Resultados   -->
 			</div>
+			<!--   Fin Resultados   -->
 
 			<!--   Inicio Slider Auspiciantes    -->
 			<div class="wcien slider">

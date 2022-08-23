@@ -1,11 +1,11 @@
 /*---   Menu Cel   ---*/
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
-  
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
+function abrirMenuCel() {
+    document.getElementById("menucel").style.width = "100%";
+}
+
+function cerrarMenuCel() {
+    document.getElementById("menucel").style.width = "0";
+}
 /*----   Fin Menu Cel   ---*/
 
 //     Tope de menu
@@ -95,7 +95,6 @@ function slides(){
 /*---   Mostrar Comision   ---*/
 function openComision(evt, seccion) {
     document.getElementById(seccion).style.display = "block";
-    evt.currentTarget.className += " active";
   }
 /*---   Mostrar Comision   ---*/
 
